@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "车车宝贝，早上好吖！",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o0f0T51KVnjAJDW5Ej0vFJ4p46vk",
+      id: "o0f0T57r-DgtppV14sfk0ecxLfr8",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "0U5igD-RGzLy3dgX7izlXgab-_s-73GBwB7iCRVMlqw",
       // 所在省份
@@ -93,16 +93,21 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: "莎莎宝贝，早上好吖！",
+      id: "o0f0T51KVnjAJDW5Ej0vFJ4p46vk",
+      useTemplateId: "0U5igD-RGzLy3dgX7izlXgab-_s-73GBwB7iCRVMlqw",
+      province: "北京",
+      city: "北京",
+      horoscopeDate: '12-10',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [
+        {"type": "*生日", "name": "莎莎宝贝", "year": "1998", "date": "12-10"},
+        {"type": "生日", "name": "车车宝贝", "year": "2000", "date": "06-08"}
+      ],
+      customizedDateList: [
+      {"keyword": "love_day", date: "2022-06-20"}
+      ]
     },
     {
       name: "老婆2",
